@@ -18,7 +18,7 @@ intercept_b = st.sidebar.slider("True Intercept 'b'", -10.0, 10.0, 5.0, 0.1)
 noise_variance = st.sidebar.slider("Noise Variance (var)", 0.0, 1000.0, 100.0, 10.0)
 
 # --- Main Page Content ---
-st.title("HW1-1: Interactive Linear Regression Visualizer")
+st.title("HW1: Interactive Linear Regression Visualizer")
 
 # 1. Data Generation
 # Set a seed for reproducibility
